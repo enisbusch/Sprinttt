@@ -1,0 +1,15 @@
+Z:\HSP Neu\Sprint 2\Sprint2\Sprint2\bin\Debug\Sprint2.exe.config
+Z:\HSP Neu\Sprint 2\Sprint2\Sprint2\bin\Debug\Sprint2.exe
+Z:\HSP Neu\Sprint 2\Sprint2\Sprint2\bin\Debug\Sprint2.pdb
+Z:\HSP Neu\Sprint 2\Sprint2\Sprint2\obj\Debug\Sprint2.csprojAssemblyReference.cache
+Z:\HSP Neu\Sprint 2\Sprint2\Sprint2\obj\Debug\MainWindow.g.cs
+Z:\HSP Neu\Sprint 2\Sprint2\Sprint2\obj\Debug\App.g.cs
+Z:\HSP Neu\Sprint 2\Sprint2\Sprint2\obj\Debug\Sprint2_MarkupCompile.cache
+Z:\HSP Neu\Sprint 2\Sprint2\Sprint2\obj\Debug\Sprint2_MarkupCompile.lref
+Z:\HSP Neu\Sprint 2\Sprint2\Sprint2\obj\Debug\MainWindow.baml
+Z:\HSP Neu\Sprint 2\Sprint2\Sprint2\obj\Debug\Sprint2.g.resources
+Z:\HSP Neu\Sprint 2\Sprint2\Sprint2\obj\Debug\Sprint2.Properties.Resources.resources
+Z:\HSP Neu\Sprint 2\Sprint2\Sprint2\obj\Debug\Sprint2.csproj.GenerateResource.cache
+Z:\HSP Neu\Sprint 2\Sprint2\Sprint2\obj\Debug\Sprint2.csproj.CoreCompileInputs.cache
+Z:\HSP Neu\Sprint 2\Sprint2\Sprint2\obj\Debug\Sprint2.exe
+Z:\HSP Neu\Sprint 2\Sprint2\Sprint2\obj\Debug\Sprint2.pdb

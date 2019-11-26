@@ -1,0 +1,38 @@
+﻿<Window x:Class="Sprint2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sprint2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="452.222" Width="803.334">
+    <Grid>
+
+        <Button x:Name="btn_ende" Content="Ende" HorizontalAlignment="Left" Margin="707,389,0,0" VerticalAlignment="Top" Width="75" Click="Btn_ende_Click"/>
+        <Button x:Name="btn_rechne" Content="Rechne" HorizontalAlignment="Left" Margin="377,389,0,0" VerticalAlignment="Top" Width="75"/>
+        <TreeView x:Name="trv_Auswahl" HorizontalAlignment="Left" Height="326" Margin="10,10,0,0" VerticalAlignment="Top" Width="128">
+            <TreeViewItem x:Name="trv_eckigekoerper" Header="Eckige Körper" >
+                <TreeViewItem x:Name="trv_rechteck" Header="Rechteck" Selected="trv_rechteck_Selected"/>
+            </TreeViewItem>
+            <TreeViewItem x:Name="trv_rundekoerper" Header="Runde Körper">
+                <TreeViewItem x:Name="trv_kreis" Header="Kreis">
+                </TreeViewItem>
+            </TreeViewItem>
+        </TreeView>
+        <Grid x:Name="grid_Rechteck" HorizontalAlignment="Left" Height="362" Margin="205,10,0,0" VerticalAlignment="Top" Width="533" Visibility="Visible" RenderTransformOrigin="0.632,0.627">
+            <Label x:Name="lbl_breiterechteck" Content="Breite b:" HorizontalAlignment="Left" Margin="59,182,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="txb_breiterechteck" HorizontalAlignment="Left" Height="23" Margin="118,185,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="Txb_breiterechteck_TextChanged" LostFocus="TextBox_LostFocus" GotFocus="Txb_breiterechteck_GotFocus"/>
+            <Label x:Name="lbl_hoeherechteck" Content="Höhe h:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="62,145,0,0" RenderTransformOrigin="-0.756,0.615"/>
+            <TextBox x:Name="txb_hoeherechteck" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="118,148,0,0" LostFocus="TextBox_LostFocus" GotFocus="Txb_breiterechteck_GotFocus"/>
+            <Image x:Name="img_rechteck" HorizontalAlignment="Left" Height="130" VerticalAlignment="Top" Width="206" Margin="213,10,0,0" Source="Rechteck.PNG"/>
+            <Label x:Name="lbl_dickerechteck" Content="Dicke:" HorizontalAlignment="Left" Margin="71,219,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.381,1.385"/>
+            <TextBox x:Name="txb_dickerechteck" HorizontalAlignment="Left" Height="23" Margin="118,222,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+            <Label Content="Dichte:" HorizontalAlignment="Left" Margin="66,256,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="txb_dichterechteck" HorizontalAlignment="Left" Height="23" Margin="118,259,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        </Grid>
+        
+    </Grid>
+
+
+</Window>
